@@ -12,5 +12,4 @@ func main() {
 	http.HandleFunc("/", handlerFunc)
 	fmt.Println("Starting http server on :3000...")
 	http.ListenAndServe(":3000", nil)
-
-}  
+}
